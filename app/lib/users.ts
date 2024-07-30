@@ -1,0 +1,11 @@
+interface User {
+  id: number;
+  name: string;
+  prof: string;
+}
+
+const users: User[] = [
+  { id: 0, name: "Taro", prof: "He is Good" },
+  { id: 1, name: "Jiro", prof: "He is cool" },
+  { id: 2, name: "Saburo", prof: "He is smart" },
+];
