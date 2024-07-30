@@ -4,7 +4,7 @@ interface User {
   prof: string;
 }
 
-const users: User[] = [
+export const users: User[] = [
   { id: 0, name: "Taro", prof: "He is Good" },
   { id: 1, name: "Jiro", prof: "He is cool" },
   { id: 2, name: "Saburo", prof: "He is smart" },
